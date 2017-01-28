@@ -55,7 +55,7 @@ class Quiz {
                                     .add(ModFile.newFile("TriggerStrings.txt"))
                             )
                     )
-                    .add(ModFile.newDir("ComponentList.SC2Components"))
+                    .add(ModFile.newFile("ComponentList.SC2Components"))
                     .add(ModFile.newFile("DocumentHeader"))
                     .add(ModFile.newFile("DocumentInfo"))
                     .add(ModFile.newFile("DocumentInfo.version"))

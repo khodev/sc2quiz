@@ -40,7 +40,7 @@ usage: java -jar sc2quiz.jar -<command> [...]
 You can generate the example attached* `xls/czech_english.xlsx`:
 
 ```shell
-java -jar sc2quiz.jar -g xls/czech_english.xlsx czenmod.SC2Mod -dn "Czech quiz!" -ld "Quiz mod with top 2000 Czech words"
+java -jar sc2quiz.jar -g xls/czech_english.xlsx result -dn "Czech quiz!" -ld "Quiz mod with top 2000 Czech words"
 ```
 
 Open the folder with SC2 editor and publish it to your account.
