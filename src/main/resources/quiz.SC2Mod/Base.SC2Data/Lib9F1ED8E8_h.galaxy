@@ -1,0 +1,36 @@
+include "TriggerLibs/natives"
+
+//--------------------------------------------------------------------------------------------------
+// Library: Quiz
+//--------------------------------------------------------------------------------------------------
+// Structures
+struct lib9F1ED8E8_gs_PlayerQuiz {
+    bool lv_questionIsActive;
+    int lv_dialog;
+    int[11] lv_answerItems;
+    int lv_questionItem;
+    string[5] lv_answers;
+    int lv_goodAnswerIndex;
+    string lv_question;
+};
+
+// Variable Declarations
+lib9F1ED8E8_gs_PlayerQuiz[33] lib9F1ED8E8_gv_playerQuizzes;
+int lib9F1ED8E8_gv_questionCount;
+int lib9F1ED8E8_gv_answerCount;
+
+// Function Declarations
+void lib9F1ED8E8_gf_InitQuiz ();
+void lib9F1ED8E8_gf_InitDialog (int lp_player);
+void lib9F1ED8E8_gf_GenerateQuestion (int lp_player);
+string lib9F1ED8E8_gf_GetRandomDicEntry ();
+void lib9F1ED8E8_gf_AnswerSelect (int lp_player, int lp_answerIndex);
+
+// Trigger Declarations
+trigger lib9F1ED8E8_gt_RecurrentQuestions;
+trigger lib9F1ED8E8_gt_InitializeQuestions;
+trigger lib9F1ED8E8_gt_OnAnswer;
+
+// Library Initialization
+void lib9F1ED8E8_InitVariables ();
+

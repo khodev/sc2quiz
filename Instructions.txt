@@ -1,0 +1,5 @@
+- Edit the questions / answers in Texts/Questions.xlsx
+- Run the Talend job to convert the XML data
+- Open CZQuizz.SC2Mod/ComponentList.SC2Components with SC2 editor
+- Save to a single file
+- Publish
