@@ -6,7 +6,7 @@ This program generates a Starcraft II mod (LOV) that will ask you to select an a
 every 60 seconds within 3 possibilities. You earn 400 minerals if you are correct.
 You can enter the questions and answers in an Excel file (see examples in xls folder).
 
-## Prerequisites
+### Prerequisites
 
 You will need:
 - Java 1.8 (however you can probably use a lower version by changing the gradle build file) 
@@ -47,10 +47,10 @@ Open the folder with SC2 editor and publish it to your account.
 
 *Please note that this word list is not exactly great, if you have a better one don't hesitate to contact me!
    
-## Contributing
+### Contributing
 
 I welcome any suggestions and comments.  
 
-## Licensing
+### Licensing
 
 The code in this project is licensed under [MIT license](./LICENSE).
